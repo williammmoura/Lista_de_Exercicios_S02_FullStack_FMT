@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeteoLab</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style/style.css">
+
+</head>
+<body>
+    <main>
+        <header>
+            <nav id="menuTopo">
+                <a href="contato" class="linkMenu">Contato</a>
+                <a href="servços" class="linkMenu">Serviços</a>
+                <a href="sobre" class="linkMenu">Sobre</a>
+                <a href="home" class="linkMenu">Home</a>
+            </nav>
+        </header>
+        <section>
+            <div class="ilustra_imagem">
+                <img src="img/undraw_Weather_re_qsmd.png" alt="Hero Image">    
+            </div>
+            <div class="areaTexto">
+                <h1>MeteoLab</h1>
+
+                <h2>Olho no tempo para cuidar do seu negócio.</h2>
+                <p>
+                    A MeteoLab está constantemente procurando a melhor tecnologia meteorológica para ter a maior precisão possível da previsão do tempo e clima, e assim auxiliar no planejamento do seu negócio.
+                </p>
+            </div>
+        </section>
+        <form action="#">
+            <fieldset>
+                <div class="caixaEntrada">
+                    <label for="nome">Nome :</label>
+                    <input id="nome" type="text" name="nome" required>
+                </div>
+                <div class="caixaEntrada">
+                    <label for="email">E-mail:</label>
+                    <input id="email" type="email" required>
+                </div>
+                <div class="caixaEntrada">
+                    <label for="municipio">Município:</label>
+                    <select name="municipio" id="municipio">
+                        <option value="selecione">-- Selecione --</option>
+                        <option value="Florianopolis">Florianópolis</option>
+                        <option value="Chapeco">Chapecó</option>
+                        <option value="Criciuma">Criciúma</option>
+                        <option value="Joinville">Joinville</option>
+                    </select>
+                </div>
+                <div class="caixaEntrada">
+                    <label for="Escolha">Modelo de negócio:</label>
+                    <select name="modeloNegocio" id="modeloNegocio">
+                        <option value="selecione">-- Selecione --</option>
+                        <option value="voce">Para você</option>
+                        <option value="empresa">Para sua empresa</option>
+                    </select>
+                </div>
+                <div class="botãoEnviar">
+                    <button type="button" class="btn btn-outline-warning" onclick="enviar()">Enviar</button>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,7 +1,7 @@
 #Lista_de_Exercicios_S02_FullStack_FMT
 
 <p align = justify>
-  Na lista de exercícios da segunda semana, nos exercício do <strong><i>01</i></strong> ao <strong><i>06</i></strong>, foi proposto a criação de uma <strong><i>landing page</i></strong> de uma empresa hipotética. 
+  Nos exercícios de números <strong><i>01</i></strong> a <strong><i>06</i></strong> da segunda semana, foi pedido que criássemos uma "<strong><i>landing page</i></strong>" para uma empresa fictícia. 
 </p>
 
 <p align = justify>
@@ -15,7 +15,7 @@
 <hr>
 
 <p align = justify>
-  Nos exercício do <strong><i>07</i></strong> ao <strong><i>10</i></strong>, foi proposto a criação de um botão que ao clicar nele aparecesse um "alert". Também foi proposto, em JavaScript a criação de "prompt" (entrada de dados fornecido pelo usuário) com sobrenome, nome, idade, cidade e ao final a apresentação de um "alert" com as informações do usuário.  
+  Nos exercícios <strong><i>07</i></strong> a <strong><i>10</i></strong>, foi proposto criar um botão que, ao ser clicado, mostrasse um "alerta". Também foi proposto, em JavaScript, a criação de um "prompt" (entrada de dados fornecido pelo usuário) para sobrenome, nome, idade, cidade e, ao final, uma apresentação de um "alert" com as informações do usuário.  
 </p>
 
 #Sobrenome:
